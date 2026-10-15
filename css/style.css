@@ -206,26 +206,23 @@ img { max-width: 100%; display: block; }
   content: "";
   position: absolute;
   border-radius: 50%;
-  filter: blur(90px);
-  opacity: 0.16;
   z-index: 0;
 }
 
 .hero::before {
-  width: 380px;
-  height: 380px;
-  background: var(--teal);
-  top: -160px;
-  left: -140px;
+  width: 520px;
+  height: 520px;
+  top: -200px;
+  left: -180px;
+  background: radial-gradient(circle, rgba(95, 163, 171, 0.2) 0%, rgba(95, 163, 171, 0) 70%);
 }
 
 .hero::after {
-  width: 340px;
-  height: 340px;
-  background: var(--mustard);
-  bottom: -140px;
-  right: -110px;
-  opacity: 0.14;
+  width: 480px;
+  height: 480px;
+  bottom: -190px;
+  right: -160px;
+  background: radial-gradient(circle, rgba(224, 171, 63, 0.18) 0%, rgba(224, 171, 63, 0) 70%);
 }
 
 .hero-inner {
