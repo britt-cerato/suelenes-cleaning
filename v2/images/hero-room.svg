@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 860" preserveAspectRatio="xMidYMax slice">
+  <!-- floor and rug -->
+  <rect y="790" width="1600" height="70" fill="#efe4cf"/>
+  <rect y="784" width="1600" height="8" fill="#ffffff" opacity=".9"/>
+  <ellipse cx="800" cy="822" rx="480" ry="30" fill="#f6edd8"/>
+
+  <!-- left window -->
+  <rect x="100" y="130" width="40" height="460" rx="12" fill="#fbf7ee" stroke="#e6dcc6" stroke-width="3"/>
+  <rect x="130" y="150" width="260" height="420" fill="#e3f0f2" stroke="#ffffff" stroke-width="10"/>
+  <circle cx="190" cy="505" r="62" fill="#bcd9d0"/><circle cx="305" cy="480" r="52" fill="#a9cfc6"/><circle cx="250" cy="535" r="50" fill="#c8e2da"/>
+  <path d="M260 150v420M130 360h260" stroke="#ffffff" stroke-width="8"/>
+  <rect x="380" y="130" width="40" height="460" rx="12" fill="#fbf7ee" stroke="#e6dcc6" stroke-width="3"/>
+
+  <!-- right window -->
+  <rect x="1180" y="130" width="40" height="460" rx="12" fill="#fbf7ee" stroke="#e6dcc6" stroke-width="3"/>
+  <rect x="1210" y="150" width="260" height="420" fill="#e3f0f2" stroke="#ffffff" stroke-width="10"/>
+  <circle cx="1280" cy="500" r="58" fill="#a9cfc6"/><circle cx="1390" cy="485" r="62" fill="#bcd9d0"/><circle cx="1340" cy="540" r="48" fill="#c8e2da"/>
+  <path d="M1340 150v420M1210 360h260" stroke="#ffffff" stroke-width="8"/>
+  <rect x="1460" y="130" width="40" height="460" rx="12" fill="#fbf7ee" stroke="#e6dcc6" stroke-width="3"/>
+
+  <!-- wall art -->
+  <g opacity=".4">
+  <rect x="640" y="290" width="130" height="170" fill="#ffffff" stroke="#e0ab3f" stroke-width="5"/>
+  <circle cx="705" cy="345" r="24" fill="#e0ab3f" opacity=".55"/>
+  <path d="M652 440l36-46 28 30 20-20 22 36z" fill="#5fa3ab" opacity=".7"/>
+  <rect x="830" y="290" width="130" height="170" fill="#ffffff" stroke="#1c2b4a" stroke-width="5"/>
+  <path d="M846 330c30 0 60 30 60 70M846 360c18 0 36 20 36 44" fill="none" stroke="#5fa3ab" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="926" cy="420" r="18" fill="#1c2b4a" opacity=".75"/>
+
+  </g>
+
+  <!-- left plant -->
+  <path d="M430 700c-40-60-92-72-124-60 12 52 64 82 124 60z" fill="#7fb8a4"/>
+  <path d="M440 700c30-64 80-84 118-76-6 54-52 86-118 76z" fill="#5fa3ab"/>
+  <path d="M436 700c-8-52 4-96 36-130 18 46 4 100-36 130z" fill="#93c7b3"/>
+  <path d="M388 790l12-90h78l12 90z" fill="#3b4d73"/>
+
+  <!-- sofa -->
+  <rect x="520" y="620" width="80" height="130" rx="36" fill="#b7d3d8"/>
+  <rect x="1000" y="620" width="80" height="130" rx="36" fill="#b7d3d8"/>
+  <rect x="560" y="550" width="480" height="150" rx="40" fill="#c9dfe3"/>
+  <rect x="540" y="660" width="520" height="90" rx="22" fill="#b0ccd2"/>
+  <path d="M800 560v100" stroke="#a5c3c9" stroke-width="3"/>
+  <rect x="552" y="750" width="14" height="40" fill="#1c2b4a"/><rect x="1034" y="750" width="14" height="40" fill="#1c2b4a"/>
+  <!-- pillows -->
+  <rect x="585" y="585" width="84" height="84" rx="14" transform="rotate(-14 627 627)" fill="#e0ab3f"/>
+  <rect x="700" y="592" width="80" height="80" rx="14" transform="rotate(8 740 632)" fill="#8cc5cc"/>
+  <rect x="915" y="590" width="84" height="84" rx="14" transform="rotate(12 957 632)" fill="#1c2b4a"/>
+  <path d="M935 600l40 60M950 596l40 60" stroke="#8cc5cc" stroke-width="7" stroke-linecap="round" opacity=".8"/>
+
+  <!-- coffee table -->
+  <ellipse cx="800" cy="800" rx="150" ry="20" fill="#e4d3b0"/>
+  <rect x="690" y="800" width="10" height="46" fill="#c9b78f"/><rect x="900" y="800" width="10" height="46" fill="#c9b78f"/>
+  <ellipse cx="840" cy="790" rx="22" ry="7" fill="#f6edd8"/>
+  <path d="M830 790c-6-26 2-40 10-40s16 14 10 40z" fill="#e0ab3f" opacity=".85"/>
+
+  <!-- floor lamp -->
+  <rect x="1126" y="470" width="8" height="320" fill="#1c2b4a" opacity=".8"/>
+  <ellipse cx="1130" cy="790" rx="30" ry="6" fill="#1c2b4a" opacity=".6"/>
+  <path d="M1076 470l20-62h68l20 62z" fill="#f3d58a"/>
+
+  <!-- right plant -->
+  <path d="M1340 790l8-76h64l8 76z" fill="#3b4d73"/>
+  <path d="M1380 714c-30-50-72-62-100-52 8 46 52 70 100 52z" fill="#7fb8a4"/>
+  <path d="M1384 714c22-54 66-72 98-64-4 46-44 74-98 64z" fill="#5fa3ab"/>
+</svg>
