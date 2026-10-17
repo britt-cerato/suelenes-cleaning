@@ -197,7 +197,7 @@ img { max-width: 100%; display: block; }
   position: relative;
   overflow: hidden;
   background: linear-gradient(180deg, var(--cream) 0%, var(--cream-light) 100%);
-  padding: 110px 0 90px;
+  padding: 110px 0 290px;
   text-align: center;
 }
 
@@ -223,6 +223,18 @@ img { max-width: 100%; display: block; }
   bottom: -190px;
   right: -160px;
   background: radial-gradient(circle, rgba(224, 171, 63, 0.18) 0%, rgba(224, 171, 63, 0) 70%);
+}
+
+.hero-art {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: min(1200px, 100%);
+  height: auto;
+  opacity: 0.3;
+  z-index: 0;
+  pointer-events: none;
 }
 
 .hero-inner {
@@ -582,4 +594,8 @@ a.contact-card:hover {
   }
   .mobile-bar .btn-secondary { background: var(--cream-light); }
   .site-footer { padding-bottom: 96px; }
+}
+
+@media (max-width: 760px) {
+  .hero { padding-bottom: 170px; }
 }
