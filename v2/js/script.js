@@ -16,7 +16,7 @@ mainNav.querySelectorAll('a').forEach((link) => {
 });
 
 const revealTargets = document.querySelectorAll(
-  '.card, .why-item, .about-text, .about-photo, .contact-card'
+  '.card, .plain-item, .about-text, .about-photo, .contact-card'
 );
 revealTargets.forEach((el) => el.classList.add('reveal'));
 
