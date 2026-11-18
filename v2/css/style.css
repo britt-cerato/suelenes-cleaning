@@ -323,44 +323,23 @@ h2 { font-size: clamp(1.8rem, 3.5vw, 2.4rem); text-align: center; }
 /* About */
 .about-inner {
   display: grid;
-  grid-template-columns: 1.4fr 0.6fr;
+  grid-template-columns: 1.2fr 0.8fr;
   gap: 48px;
   align-items: center;
 }
 
 .about-text p { color: #4a4a4a; }
 
-.about-photo {
-  display: flex;
-  align-items: stretch;
-}
+.about-photo { display: flex; }
 
-.about-photo-frame {
-  flex: 1;
-  min-height: 220px;
-  border-radius: var(--radius);
-  background: linear-gradient(150deg, #e9f3f4 0%, #fbf1d8 100%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 14px;
-  text-align: center;
-  padding: 24px;
-  box-shadow: var(--shadow);
-}
-
-.about-photo-logo {
-  width: 100px;
+.about-team-photo {
+  width: 100%;
   height: auto;
-}
-
-.about-photo-label {
-  color: var(--navy);
-  font-weight: 600;
-  font-size: 0.95rem;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 30%;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
 }
 
 /* Reviews */
