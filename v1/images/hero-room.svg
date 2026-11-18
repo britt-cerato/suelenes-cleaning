@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" fill="none" stroke="#1c2b4a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- floor line and rug -->
+  <path d="M0 382H1200" stroke-width="2"/>
+  <ellipse cx="600" cy="388" rx="340" ry="10" stroke-width="2"/>
+
+  <!-- framed art on wall -->
+  <rect x="110" y="70" width="120" height="150" rx="4"/>
+  <rect x="124" y="84" width="92" height="122" rx="2"/>
+  <path d="M124 180l30-36 24 24 18-18 20 30"/>
+  <circle cx="190" cy="116" r="11" stroke="#e0ab3f" fill="#e0ab3f" fill-opacity=".35"/>
+
+  <!-- floor lamp -->
+  <path d="M300 382V168"/>
+  <path d="M262 168l12-52h52l12 52z" stroke="#e0ab3f" fill="#e0ab3f" fill-opacity=".25"/>
+  <path d="M280 382h40"/>
+
+  <!-- sofa -->
+  <rect x="390" y="190" width="420" height="120" rx="26"/>
+  <rect x="356" y="236" width="64" height="110" rx="24"/>
+  <rect x="780" y="236" width="64" height="110" rx="24"/>
+  <rect x="404" y="290" width="392" height="56" rx="14"/>
+  <path d="M380 346v26M820 346v26"/>
+  <path d="M600 192v98" stroke-width="1.5"/>
+  <!-- pillows -->
+  <path d="M432 262l22-58 52 18-22 58z" stroke="#e0ab3f" fill="#e0ab3f" fill-opacity=".3"/>
+  <path d="M520 268l8-62 56 8-8 62z"/>
+  <path d="M690 270l-4-62 56-6 4 62z" stroke="#e0ab3f" fill="#e0ab3f" fill-opacity=".3"/>
+
+  <!-- side table and plant -->
+  <path d="M880 322h90"/>
+  <path d="M892 322v60M958 322v60"/>
+  <path d="M912 322l-6-34h38l-6 34z"/>
+  <path d="M925 288c-4-30-24-44-40-46 2 24 16 40 40 46z"/>
+  <path d="M925 288c2-34 20-52 44-56-2 28-18 48-44 56z"/>
+  <path d="M925 288c-2-22 2-40 14-56"/>
+
+  <!-- window and curtain -->
+  <rect x="1020" y="50" width="130" height="200" rx="4"/>
+  <path d="M1085 50v200M1020 150h130"/>
+  <path d="M1000 40c8 60-2 150 16 230M1170 40c-8 60 2 150-16 230" stroke-width="2"/>
+  <path d="M1000 40h170" stroke-width="3"/>
+
+  <!-- left plant -->
+  <path d="M60 382l-8-48h44l-8 48z"/>
+  <path d="M74 334c-6-34-30-52-50-54 2 28 20 48 50 54z"/>
+  <path d="M74 334c4-40 28-58 52-62-2 32-22 54-52 62z"/>
+  <path d="M74 334c-2-26 2-48 16-68"/>
+</svg>
