@@ -560,3 +560,7 @@ a.contact-card:hover {
     transform: translateX(-50%);
   }
 }
+
+.made-by { margin-top: 6px; }
+.made-by a { display: inline-flex; align-items: center; gap: 6px; font-size: 0.8rem; color: #7a7a7a; }
+.made-by a:hover { color: var(--navy); }
