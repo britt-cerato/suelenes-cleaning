@@ -355,6 +355,41 @@ h2 { font-size: clamp(1.8rem, 3.5vw, 2.4rem); text-align: center; }
 .card h3 { font-size: 1.15rem; margin-bottom: 10px; }
 .card p { color: #5a5a5a; font-size: 0.95rem; margin: 0; }
 
+/* How it works */
+.how { padding-top: 0; }
+
+.how-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 36px;
+}
+
+.how-step { text-align: center; }
+.how-step h3 { font-size: 1.2rem; margin-bottom: 8px; }
+.how-step p { color: #4a4a4a; margin: 0 auto; max-width: 300px; }
+
+.how-num {
+  width: 46px;
+  height: 46px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  background: rgba(224, 171, 63, 0.18);
+  color: var(--navy);
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 760px) {
+  .how-list { grid-template-columns: 1fr; gap: 32px; }
+}
+
 /* What to expect */
 .expect { background: var(--soft); }
 
